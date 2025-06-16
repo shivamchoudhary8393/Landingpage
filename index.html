@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creative Digital Agency Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-top" aria-label="Contact and social media info">
+      <span>
+        <span class="material-icons md-18">phone</span>  +91 8393429578
+      </span>
+      <a href="mailto:demozend@gmail.com" aria-label="Email demozend@gmail.com">
+        <span class="material-icons md-18">email</span> cda@gmail.com
+      </a>
+      <a href="#" aria-label="Facebook link" title="Facebook">
+        <span class="material-icons md-18">facebook</span>
+      </a>
+      <a href="#" aria-label="Twitter link" title="Twitter">
+        <span class="material-icons md-18">twitter</span>
+      </a>
+      <a href="#" aria-label="Instagram link" title="Instagram">
+        <span class="material-icons md-18">instagram</span>
+      </a>
+      <a href="#" aria-label="LinkedIn link" title="LinkedIn">
+        <span class="material-icons md-18">linkedin</span>
+      </a>
+    </div>
+    <div class="header-main" role="banner">
+      <a href="#" class="logo" aria-label="Landing Page Logo">
+        <div class="logo-icon" aria-hidden="true">LP</div>
+        Landing Page
+      </a>
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="#" tabindex="0">Home</a>
+        <a href="#" tabindex="0">Blog</a>
+        <a href="#" tabindex="0">Page</a>
+        <a href="#" tabindex="0">Services</a>
+        <a href="#" tabindex="0">Testimonials</a>
+        <a href="#" tabindex="0">Contact</a>
+        <a href="#" class="btn-buy" tabindex="0">Buy Now</a>
+      </nav>
+      <button id="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="material-icons" aria-hidden="true">menu</span>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="nav-mobile" aria-label="Mobile navigation menu">
+      <a href="#" tabindex="0">Home</a>
+      <a href="#" tabindex="0">Blog</a>
+      <a href="#" tabindex="0">Page</a>
+      <a href="#" tabindex="0">Services</a>
+      <a href="#" tabindex="0">Testimonials</a>
+      <a href="#" tabindex="0">Contact</a>
+      <a href="#" class="btn-buy" tabindex="0">Buy Now</a>
+    </nav>
+    <div id="mobile-overlay"></div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" role="region" aria-label="Creative Digital Agency Hero Banner">
+    <div class="hero-content">
+      <h2>WE ARE CREATIVE</h2>
+      <h1>Creative <strong>Digital Agency</strong></h1>
+      <p>
+        We are a results-driven digital agency crafting impactful brand experiences. From design to development, we help businesses grow through innovative strategies, creative storytelling, and tailored digital solutions.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary" tabindex="0">Read More</button>
+        <button class="btn-secondary" tabindex="0">Request a Consult</button>
+      </div>
+    </div>
+    <div class="hero-carousel-dots" role="tablist" aria-label="Hero slider dots">
+      <button class="hero-dot active" role="tab" aria-selected="true" aria-controls="slide1" tabindex="0"></button>
+      <button class="hero-dot" role="tab" aria-selected="false" aria-controls="slide2" tabindex="-1"></button>
+      <button class="hero-dot" role="tab" aria-selected="false" aria-controls="slide3" tabindex="-1"></button>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" aria-label="Key features">
+    <div class="features-grid">
+      <div class="feature-item" role="region" aria-label="Launch Business feature">
+        <span class="material-icons md-48" aria-hidden="true">rocket_launch</span>
+        <h3 class="feature-title">Launch Business</h3>
+        <p class="feature-desc">Kickstart your brand with confidence. We Provide innovative digital solutions, branding strategies, and tech support to turn your ideas into a powerful, scalable business</p>
+      </div>
+      <div class="feature-item" role="region" aria-label="Online Support Team feature">
+        <span class="material-icons md-48" aria-hidden="true">support_agent</span>
+        <h3 class="feature-title">Online Support Team</h3>
+        <p class="feature-desc">Our dedicated support team is available 24/7 to assist you with every step of your digital journy- fast, friendly, and always ready to help.</p>
+      </div>
+      <div class="feature-item" role="region" aria-label="Time Management feature">
+        <span class="material-icons md-48" aria-hidden="true">schedule</span>
+        <h3 class="feature-title">Time Management</h3>
+        <p class="feature-desc">We help you to optimize every second-boosting productivity wirh smart planning and efficient digital strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section class="about-us" aria-label="About Us section">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+       We are a passionate team of designers, developers, and digital strategists dedicated to helping brands thrive online. With years of industry experience, we specialize in building innovative websites, engaging campaigns, and tailored digital solutions that deliver results. Our focus is on creativity, collaboration, and customer satisfaction—every project is a partnership.
+      </p>
+      <button class="btn-readmore" tabindex="0">Read More</button>
+    </div>
+    <div class="about-image-container" aria-hidden="true">
+      <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d0c4bd50-1df6-44e1-846c-74d463d6940e.png" alt="Thoughtful businessman portrait" />
+      <div class="about-image-border"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" aria-label="Our services section">
+    <h2>Our Services</h2>
+    <div class="grid-3">
+      <article class="service-card" tabindex="0" aria-label="User Experience service card">
+        <div class="service-icon-container" aria-hidden="true">
+          <span class="material-icons">touch_app</span>
+        </div>
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7d8dc369-f7a7-441e-bffc-4f9e81916099.png" alt="User working on user experience project" />
+        <div class="service-content">
+          <h3 class="service-title">User Experience</h3>
+          <p>Designing intuitive experiences that delight and engage users.</p>
+        </div>
+      </article>
+      <article class="service-card" tabindex="0" aria-label="Creative Design service card">
+        <div class="service-icon-container" aria-hidden="true">
+          <span class="material-icons">brush</span>
+        </div>
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/811a7c21-50ca-4918-974e-071448a66bf0.png" alt="Creative designer working on digital design" />
+        <div class="service-content">
+          <h3 class="service-title">Creative Design</h3>
+          <p>Creating visually stunning designs tailored to your brand identity.</p>
+        </div>
+      </article>
+      <article class="service-card" tabindex="0" aria-label="Retina Ready service card">
+        <div class="service-icon-container" aria-hidden="true">
+          <span class="material-icons">visibility</span>
+        </div>
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4a67c03d-01c2-4e8e-86f8-60b6f27b6fb2.png" alt="High resolution retina ready display devices" />
+        <div class="service-content">
+          <h3 class="service-title">Retina Ready</h3>
+          <p>Ensuring your site looks incredible on all high resolution devices.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <section class="footer-section" aria-label="Contact Info">
+        <h3>Contact Us</h3>
+        <p>GOPIKRISHNA 1331, SECTOR-12 R.K. PURAM NEW DELHI DL 110022 IN</p>
+        <p>Phone: +91 8393429578</p>
+        <p>Email: <a href="mailto:info@creativeagency.com">info@creativeagency.com</a></p>
+      </section>
+      <section class="footer-section" aria-label="Quick Links">
+        <h3>Quick Links</h3>
+        <a href="#" tabindex="0">Home</a>
+        <a href="#" tabindex="0">Services</a>
+        <a href="#" tabindex="0">About Us</a>
+        <a href="#" tabindex="0">Blog</a>
+        <a href="#" tabindex="0">Contact</a>
+      </section>
+      <section class="footer-section" aria-label="Follow Us">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook" tabindex="0"><span class="material-icons">facebook</span></a>
+          <a href="#" aria-label="Twitter" tabindex="0"><span class="material-icons">twitter</span></a>
+          <a href="#" aria-label="Instagram" tabindex="0"><span class="material-icons">instagram</span></a>
+          <a href="#" aria-label="LinkedIn" tabindex="0"><span class="material-icons">linkedin</span></a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
